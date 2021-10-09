@@ -1,4 +1,18 @@
 .hero {
     max-width:1200px;
-    color:blue;
+    color:#333;
+    margin:auto;
+    background-color: green;
+}
+
+h1 {
+
+font-size:72px;
+
+}
+
+nav ul {
+    display:flex;
+    flex-direction: row;
+    color:red;
 }
