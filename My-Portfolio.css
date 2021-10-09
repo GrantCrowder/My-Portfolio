@@ -7,12 +7,33 @@
 
 h1 {
 
-font-size:72px;
+font-size:300px;
+color:white;
+line-height:250px;
 
+}
+
+h2 {
+    color:#fff;
 }
 
 nav ul {
     display:flex;
     flex-direction: row;
-    color:red;
+    color:white;
+}
+
+nav > div {
+ 
+    max-width: 1440px;
+
+    margin:auto;
+    padding: 16 0;
+
+
+
+}
+
+nav {
+    background-color: #333;
 }
