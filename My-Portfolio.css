@@ -28,11 +28,12 @@ nav > div {
     max-width: 1440px;
 
     margin:auto;
-    padding: 16 0;
+    padding: 16 0;}
 
+ a:link {
+        text-decoration: none!important;
+      }
 
-
-}
 
 nav {
     text-decoration:none;
