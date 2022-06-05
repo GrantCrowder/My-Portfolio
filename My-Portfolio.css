@@ -65,6 +65,7 @@ transition: 0.3s;}
 
 nav {
   text-decoration:none;
+position:fixed;
 width:100%;
 z-index:1000000;
 background-color: #eee;
