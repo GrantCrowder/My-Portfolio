@@ -61,6 +61,25 @@ margin-top: 16px;
 margin-bottom:16px;
 }
 
+button {
+display:flex;
+justify-content:center;
+align-items:center;
+width: 300px;
+height: 56px;
+margin-top:40px;
+
+background: #054820;
+/* Button Shadow */
+
+box-shadow: 0px 4px 11px rgba(2, 37, 10, 0.35);
+border-radius: 4px;
+border:none;
+color: white;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+}
 
 
 @media only screen and (max-width: 1200px) {
