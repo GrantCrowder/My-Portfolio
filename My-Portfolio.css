@@ -60,10 +60,18 @@ a {
  padding: 8px;
  
     }
-a:hover {text-decoration: underline !important;}
+a:hover {text-decoration: underline !important;
+transition: 0.3s;}
 
 nav {
   text-decoration:none;
+position:fixed;
+width:100%;
+z-index:1000000;
+background-color: #eee;
+margin-top:0px;
+top:0;
+filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
 }
 
 .title-1 {
@@ -99,6 +107,17 @@ button:hover {
 background: #02250A;
  transition: 0.3s;
 }
+
+
+.scroll-down nav {
+transform: translate3d(0, -100%, 0);
+transition:.3s}
+
+.scroll-up nav {
+  
+  transition: .3s}
+  
+  
 
 @media only screen and (max-width: 1200px) {
 .container {
