@@ -14,6 +14,12 @@ margin:auto;
   margin:auto;
 }
 
+.im-grant{
+font-size:32px;
+text-transform: uppercase;
+font-weight:800;
+}
+
 h1 {
 
 font-size:142px;
@@ -67,7 +73,7 @@ justify-content:center;
 align-items:center;
 width: 300px;
 height: 56px;
-margin-top:40px;
+margin-top:56px;
 
 background: #054820;
 /* Button Shadow */
