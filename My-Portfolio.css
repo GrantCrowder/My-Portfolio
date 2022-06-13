@@ -1,7 +1,8 @@
 body{
-    font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 box-sizing:border-box;
 margin:0px;
+color:#333;
 }
 
 .nav-container {
@@ -16,67 +17,81 @@ max-width: 1200px;
 margin:auto;
 }
 
-.hero {
-  color:#333;
-  margin:auto;
+.section-container {
+color:#333;
+margin:auto;
+margin-top:200px;
+margin-bottom: 120px;
 }
 
 .im-grant{
 font-size:32px;
 text-transform: uppercase;
 font-weight:800;
+letter-spacing:2px
 }
 
 h1 {
 
 font-size:142px;
-color:white;
 line-height:142px;
 
 }
 
 h2 {
-  color:#fff;
 }
 
 nav ul {
- display:flex;
- flex-direction: row;
+display:flex;
+flex-direction: row;
 list-style: none;
 text-decoration:none;
 }
 
 nav > div {
 
-  max-width: 1440px;
-  margin:auto;
-  padding-top: 24px;
+max-width: 1440px;
+margin:auto;
+padding-top: 24px;
 padding-bottom:24px; }
 
 
 a {
-      text-decoration: none!important;
-      color: #333;
- padding: 8px;
- 
-    }
+    text-decoration: none!important;
+    color: #333;
+padding: 8px;
+
+  }
 a:hover {text-decoration: underline !important;
 transition: 0.3s;}
 
 nav {
-  text-decoration:none;
+text-decoration:none;
 position:fixed;
 width:100%;
 z-index:1000000;
-background-color: #eee;
+background-color: #fff;
 margin-top:0px;
 top:0;
+/* THIS IS THE DROP SHADOW
 filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+*/
+Border-bottom: 2px solid #ccc;
+
 }
 
 .title-1 {
 
-  font-family: 'Nunito Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+color: #333;
+margin-top: 16px;
+margin-bottom:16px;
+}
+
+.title-2{
+
+font-size:40px;
+font-family: 'Nunito Sans', sans-serif;
 color: #333;
 margin-top: 16px;
 margin-bottom:16px;
@@ -105,7 +120,7 @@ transition: 0.3s;
 
 button:hover {
 background: #02250A;
- transition: 0.3s;
+transition: 0.3s;
 }
 
 
@@ -114,14 +129,39 @@ transform: translate3d(0, -100%, 0);
 transition:.3s}
 
 .scroll-up nav {
-  
-  transition: .3s}
-  
-  
+
+transition: .3s}
+
+
+
+
+
+.text_and_button {
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+#myprofileIMG {
+width:500px;
+height:500px;
+
+}
+
+.myWorkTitle {
+text-align:center;
+font-size:32px;
+}
+
+#workImage {
+width:50%;
+height:50%;
+
+}
 
 @media only screen and (max-width: 1200px) {
 .container {
-  margin-left: 24px;
-  margin-right: 24px;
+margin-left: 24px;
+margin-right: 24px;
 }
 }
